@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.sidebar{
+    height: 100vh;
+    display: flex;
+    width: 17vw;
+    top: 0;
+    left: 0%;
+    position: fixed;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
+.emptyDiv{
+    margin: 50px 0px;
+}
+
+.bold{
+    font-weight: 600;
+}
+
+.sideBarItem{
+    border-radius: 5px;
+    margin: 20px 0px;
+    padding: 10px 0px;
+    transition: .7ms;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    /* font-family: 'Poppins', sans-serif */
+    /* background-color: aqua; */
+}
+
+.sideBarItem:hover{
+    background-color: aliceblue;
+}

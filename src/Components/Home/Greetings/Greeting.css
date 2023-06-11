@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto+Condensed&family=Press+Start+2P&Roboto+Serif&&display=swap');
+
+.Greetings{
+    background-color: white;
+    margin: 60px 0px 0px 20px;
+}
+
+.Head{
+    font-size: 1.6rem;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.flexGreetingsDes{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.itemOne{
+    margin-right: 40px;
+    width: 320px;
+    text-align: center;
+}
+
+.itemOneDes{
+    font-size: larger;
+    /* font-weight: 500; */
+    font-family: 'Roboto Mono', monospace;
+}
+
+.fontweight{
+    font-family: 'Roboto Serif', serif;
+}
+
+.itemTwo{
+    margin-left: 10px;
+    width: 320px;
+}
+
+.itemTwo img{
+    height: 200px;
+    width: 350px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+/* .sideBarHeight{
+    height: 100vh;
+    position:fixed;
+    width: 250px;
+    top: 0%;
+    left: 0%;
+}
+
+.app{
+    margin-left: 350px;
+} */

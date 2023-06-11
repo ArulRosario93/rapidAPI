@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto+Condensed&family=Press+Start+2P&Roboto+Serif&&display=swap');
+
+.AlbumPage{
+    margin-left: 17vw;
+    height: 100vh;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.833);
+}
+
+.backbtn{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    cursor: pointer;
+    color: white;
+}
+
+.AlbumPageHeader{
+    height: 230px;
+    display: flex;
+    flex-direction: row;
+}
+
+.AlbumPageHeader img{
+    height: 230px;
+    width: 230px;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    border-radius: 160px;
+}
+
+.AlbumPageHead{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.AlbumPageP{
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.ListenonSpotify{
+    width: 350px;
+    text-align: center;
+    margin: 15px auto;
+    padding: 19px 25px 7px;
+    background-color: aqua;
+    color: black;
+    text-decoration: none;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.likeIT{
+    color: rgb(255, 0, 0);
+    font-family: 'Press Start 2P', cursive; 
+    text-align: center;
+}
+
+.likeITbtn{
+    /* background-color: rgba(123, 123, 123, 0.763); */
+    /* padding: 15px; */
+    width: min-content;
+    font-size: xx-large;
+    margin: auto;
+    color: aliceblue;
+    border-radius: 70px;
+}

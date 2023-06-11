@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto+Condensed&family=Press+Start+2P&Roboto+Serif&&display=swap');
+
+.Search{
+    margin: 80px 0px 0vw 18vw;
+}
+
+.SearchHead{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2rem;
+}
+
+.SearchInput{
+    /* margin: 0px 10px 0px 0px; */
+    padding: 20px;
+    width: 90%;
+    outline: none;
+    background-color: transparent;
+    border: none;
+}
+
+.SearchFlex{
+    align-items: center;
+    width: 90%;
+    border: 1px solid black;
+    padding: 0px 25px 0px 10px;
+    display: flex;
+}
+
+.Searchbtn{
+    background-color: aqua;
+    color: black;
+    padding: 10px 15px;
+}

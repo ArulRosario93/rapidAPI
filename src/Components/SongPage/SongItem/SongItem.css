@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+.SongItem{
+    width: 100%;
+    padding: 17px 45px;
+    background-color:transparent;
+    color: white;
+}
+
+.SongItemDes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.SongItemDesContain{
+    height: 50px;
+    align-items: center;
+    display: flex;
+    max-width: 450px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.SongItemDes .songNAME{
+    width: 350px;
+    margin-left: 25px;
+}
+
+.SongItemDes{
+    /* width: 50px;
+    height: 50px; */
+    object-fit: cover;
+    border-radius: 50%;
+    /* margin-right: 15px; */
+}
+
+.SongItemDes p{
+    font-family: 'Josefin Sans', sans-serif;
+    margin:0%;
+    /* font-weight: 600; */
+}

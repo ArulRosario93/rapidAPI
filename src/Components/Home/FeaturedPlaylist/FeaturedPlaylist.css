@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+.FeaturedPlaylist{
+    margin: 50px 0px 0px 0px;
+    width: 100%;
+}
+
+.FeaturedPlaylistHead{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.scrollableContainer{
+    margin-top: 15px;
+    height: 230px;
+    max-width: 100%;
+    overflow-x: scroll;
+}
+
+.scrollableContainer::-webkit-scrollbar{
+    height: 0px;
+}
+
+.scrollableContainer:hover .scrollableContainer::-webkit-scrollbar-thumb{
+    background-color: rgba(0, 0, 0, 0.739);
+}
+
+.scrollableContainer::-webkit-scrollbar-track{
+    background-color: rgb(243, 243, 243);
+    height: 0px;
+}
+
+.scrollableContainer::-webkit-scrollbar-thumb{
+    background-color: rgba(0, 0, 0, 0);
+}
+.scrollableContainer::-webkit-scrollbar-thumb:hover{
+    background-color: rgba(0, 0, 0, 0.739);
+}
+
+.scrollable-content{
+    display: flex;
+    scrollbar-width:none;
+  flex-wrap: nowrap;
+  position: relative;
+}
+
+.scrollable-item{
+    flex: 0 0 0;
+    height: 230px;
+    /* padding-left: 10px; */
+    margin-left: 20px;
+    
+    /* margin-right: 10px; */
+    /* background-color: rgb(15, 143, 254); */
+}
+
+.boxContainer img{
+    /* margin-right: 10px; */
+    width: 190px;
+    height: 170px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.boxContainerP{
+    text-align: center;
+    width: 190px;
+    /* background-color: antiquewhite; */
+    margin-top: 5px;
+    font-family: 'Poppins', sans-serif;
+}

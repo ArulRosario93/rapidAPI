@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+
+.SongPage{
+    margin-left: 17vw;
+    /* width: 100%; */
+    position: relative;
+}
+
+.SongPageHeaderAb{
+    position: fixed;
+    top: 0%;
+    box-sizing: border-box;
+    width:100%;
+    background-color: rgba(28, 28, 28, 0.644);
+    color: antiquewhite;
+}
+
+.SongPageDesh2{
+    /* font-weight: 600; */
+}
+
+.SongPageHeaderAbFlex{
+    display: flex;
+    width: 50%;
+    /* margin: auto; */
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 25px;
+}
+
+.SongPageHeaderAbFlex div{font-weight: bolder;}
+
+.Backbtn{
+    cursor: pointer;
+}
+
+.SongPageHead{
+    text-align: center;
+}
+
+.SongPageHeader{
+    position: relative;
+    height: 320px;
+}
+
+.nameOFArtist{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.SongPageHeader img{
+    height: 320px;
+    width: 100%;
+    background-position: top;
+    object-fit: cover;
+    object-fit: 5px;
+}
+
+.SongPageDes{
+    top: 70%;
+    width: 85%;
+    left: 5%;
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.SongPageDesp{
+    margin-bottom: 3px;
+    font-size:3rem;
+}
+
+.bgForSong{
+    background-color: rgba(247, 4, 4, 0);
+    width: 100%;
+    min-height: 60vh;
+}
+
+.playShuffle{
+    padding:  20px 0px;
+    display: flex;
+    flex-direction: row;
+    color: aquamarine;
+    justify-content: space-between;
+    width: 220px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.playShuffle div{
+    padding: 9px 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: rgba(0, 0, 0, 0.409);
+    color: white;
+    border-radius: 5px;
+}
+
+.blurbg{
+    min-height: 60vh;
+    background-color: rgba(0, 0, 0, 0.342);
+    backdrop-filter: blur(70px);
+}
